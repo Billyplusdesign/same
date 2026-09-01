@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="ecommerce.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="welcome-page">
+
+    <div class="welcome-box">
+
+        <h1>CIESTA.</h1>
+
+        <p>Welcome to CIESTA.</p>
+        <span>Sign up or log in to continue.</span>
+
+        <!-- SIGN UP FORM -->
+        <div class="welcome-signup">
+
+            <input type="text" class="welcome-name" placeholder="Full Name">
+
+            <input type="email" class="welcome-email" placeholder="Email Address">
+
+            <input type="password" class="welcome-password" placeholder="Create Password">
+
+            <button class="welcome-signup-button">Sign Up</button>
+
+        </div>
+
+        <p class="already-account">Already have an account?</p>
+
+        <button class="welcome-login-button">Log In</button>
+
+        <!-- LOGIN FORM -->
+        <div class="welcome-login">
+
+            <input type="email" class="welcome-login-email" placeholder="Email Address">
+
+            <input type="password" class="welcome-login-password" placeholder="Password">
+
+            <button class="welcome-login-submit">Log In</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <header class="header">
+    <div class="logo">Ciesta.</div>
+    <nav class="nav-bar">
+        <a href="#New-in">NEW IN</a>
+        <a href="#MEN">MEN</a>
+        <a href="#MEN">WOMEN</a>
+        <a href="#MEN">ACCESSORIES</a>
+        <a href="#Lookbook">LOOKBOOK</a>
+        <a href="#Sales">SALES</a>
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <i class="fa-solid fa-user user-icon"></i>
+        <div class="cart-icon-container">
+             <i class="fa-solid fa-cart-shopping cart-icon"></i>
+             <span class="cart-count">0</span>
+        </div>
+    </nav>
+   </header>
+   <section class="home">
+   <!-- <img src="fashion.jpg" alt="fashion"> -->
+   <div class="write-up">
+   <H3>__Autumn / Winter Collection</H3>
+   <H1>
+    Dressed for the <br>
+    <span class="cold">cold-weather </span> <br>
+    season
+   </H1> <br>
+   <p>Considered wardrobe staples in natural wool, silk and <br>
+    leather — cut to last well beyond a single winter. Made in <br>
+    limited runs, never restocked twice</p>
+    <br>
+    <a href="#" class="my-button">Shop the Collection</a>
+    </div>
+    <div class="picture">
+        <img src="fashion.jpg" alt="fashion">
+    </div>
+    </section> <br><br><br><br><br><br><br><br><br>
+
+    <section class="Shop">
+        <h3>__SHOP BY CATEGORY</h3>
+        <h1>Find your edit</h1><br>
+        <div class="cards">
+            <div class="card">
+                <img src="women.jpg" alt="women">
+                <hr>
+                <div class="info">
+                    <h2>Women</h2>
+                    <p>142 PIECES</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="men.jpg" alt="men">
+                <hr>
+                <div class="info">
+                    <h2>Men</h2>
+                    <p>80 PIECES</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="accessories.jpg" alt="accessories">
+                <hr>
+                <div class="info">
+                    <h2>Accessories</h2>
+                    <p>45 PIECES</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="shoe.jpg" alt="shoe">
+                <hr>
+                <div class="info">
+                    <h2>Shoe</h2>
+                    <p>90 PIECES</p>
+                </div>
+            </div>
+        </div>
+    </section> <br> <br><br><br>
+    <br>
+    <section id="MEN">
+        <h3>__THE EDIT</h3>
+        <h1>Winter favorite</h1>
+        <div id="product-cards">
+            <div class="product-card">
+                <img src="wool.jpg" alt="wool">
+                
+                <button class="add-cart" data-name="The Marlowe Wool Coat" data-price="248">
+                 Add to Cart
+                </button>
+
+                <hr>
+                <div class="product-info">
+                    <h4>Women · Outerwear</h4>
+                    <h2>The Marlowe Wool Coat</h2>
+                    <p>$248</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="blazer.jpg" alt="blazer">
+
+                <button class="add-cart" data-name="Camden Relaxed Blazer" data-price="189">
+                  Add to Cart
+                </button>
+                <hr>
+                <div class="product-info">
+                    <h4>Men · Tailoring</h4>
+                    <h2>Camden Relaxed Blazer</h2>
+                    <p>$189</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="silk.jpg" alt="silk">
+
+                <button class="add-cart" data-name="Odette Silk Slip Dress" data-price="164">
+                 Add to Cart
+                </button>
+                <hr>
+                <div class="product-info">
+                    <h4>Women · Dresses</h4>
+                    <h2>Odette Silk Slip Dress</h2>
+                    <p>$164</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="jacket.jpg" alt="jacket">
+
+                <button class="add-cart" data-name="Field Waxed Jacket" data-price="228">
+                  Add to Cart
+                </button>
+                <hr>
+                <div class="product-info">
+                    <h4>Men · Outerwear</h4>
+                    <h2>Field Waxed Jacket</h2>
+                    <p>$228</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="tote.jpg" alt="tote">
+
+                <button class="add-cart" data-name="Luna Leather Tote" data-price="156">
+                 Add to Cart
+                </button>
+                <hr>
+                <div class="product-info">
+                    <h4>Accessories · Bags</h4>
+                    <h2>Luna Leather Tote</h2>
+                    <p>$156</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="boot.jpg" alt="boot">
+
+                <button class="add-cart" data-name="Rhodes Chelsea Boots" data-price="210">
+                 Add to Cart
+                </button>
+                <hr>
+                <div class="product-info">
+                    <h4>Shoes · Boots</h4>
+                    <h2>Rhodes Chelsea Boots</h2>
+                    <p>$210</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="knit.jpg" alt="knit">
+                <button class="add-cart" data-name="Astrid Ribbed Knit" data-price="88">
+                Add to Cart
+                </button>
+                <hr>
+                <div class="product-info">
+                    <h4>Women · Knitwear</h4>
+                    <h2>Astrid Ribbed Knit</h2>
+                    <p>$88</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="shirt.jpg" alt="shirt">
+                <button class="add-cart" data-name="Sutton Oxford Shirt" data-price="76">
+                Add to Cart
+                </button>
+                <hr>
+                <div class="product-info">
+                    <h4>Men · Shirts</h4>
+                    <h2>Sutton Oxford Shirt</h2>
+                    <p>$76</p>
+                </div>
+            </div>
+        </div>
+    </section> <br><br><br><br><br><br>
+    <br><br><br>
+    <section id="New-in">
+        <h3>__ JUST LANDED</h3>
+        <h1>New arrivals</h1>
+        <div class="arrivals-wrapper">
+            <button class="scroll-arrow">→</button>
+        <div class="arrivals-cards">
+            <div class="arrivals-card">
+                <img src="searf.jpg" alt="scarf">
+                <button class="add-cart" data-name="Verona Cashmere Scarf" data-price="72">
+                Add to Cart
+                </button>
+                <hr>
+                <div class="arrivals-info">
+                    <h4>Accessories</h4>
+                    <h2>Verona Cashmere Scarf</h2>
+                    <p>$72</p>
+                </div>
+            </div>
+            <div class="arrivals-card">
+                <img src="trouser.jpg" alt="trouser">
+                <button class="add-cart" data-name="Halden Wide Trouser" data-price="118">
+                Add to Cart
+                </button>
+                <hr>
+                <div class="arrivals-info">
+                    <h4>Women · Trousers</h4>
+                    <h2>Halden Wide Trouser</h2>
+                    <p>$118</p>
+                </div>
+            </div>
+            <div class="arrivals-card">
+                <img src="cardigan.jpg" alt="cardigan">
+                <button class="add-cart" data-name="Bexley Cable Cardigan" data-price="134">
+                Add to Cart
+                </button>
+                <hr>
+                <div class="arrivals-info">
+                    <h4>Men · Knitwear</h4>
+                    <h2>Bexley Cable Cardigan</h2>
+                    <p>$134</p>
+                </div>
+            </div>
+            <div class="arrivals-card">
+                <img src="belt.jpg" alt="belt">
+                <button class="add-cart" data-name="Isla Leather Belt" data-price="54">
+                Add to Cart
+                </button>
+                <hr>
+                <div class="arrivals-info">
+                    <h4>Accessories</h4>
+                    <h2>Isla Leather Belt</h2>
+                    <p>$54</p>
+                </div>
+            </div>
+            <div class="arrivals-card">
+                <img src="polo.jpg" alt="polo">
+                <button class="add-cart" data-name="Pierce Merino Polo" data-price="96">
+                Add to Cart
+                </button>
+                <hr>
+                <div class="arrivals-info">
+                    <h4>Men · Knitwear</h4>
+                    <h2>Pierce Merino Polo</h2>
+                    <p>$96</p>
+                </div>
+            </div>
+            <div class="arrivals-card">
+                <img src="mules.jpg" alt="mules">
+                <button class="add-cart" data-name="Noor Loafer Mules" data-price="142">
+                 Add to Cart
+                </button>
+                <hr>
+                <div class="arrivals-info">
+                    <h4>Shoes</h4>
+                    <h2>Noor Loafer Mules</h2>
+                    <p>$142</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <section id="Lookbook">
+        <h3>__ THE AW JOURNAL __</h3> <br><br>
+        <H1>Two ways to wear winter</H1>
+        <div class="book-cards">
+             <div class="book-card">
+                <img src="layer.jpg" alt="layer">
+                <hr>
+                <div class="book-info">
+                    <h2>The City Layer</h2>
+                    <p>Structured tailoring softened with <br>
+                         heavyweight knits — built for grey mornings <br>
+                          and long commutes.</p>
+                </div>
+                <a href="#" class="my-button">Shop the look</a>
+            </div>
+            <div class="book-card">
+                <img src="away.jpg" alt="away">
+                <hr>
+                <div class="book-info">
+                    <h2>The Weekend Away</h2>
+                    <p>Waxed cotton, cable knits and leather boots <br>
+                         — pieces that earn their keep off the beaten <br>
+                          track.</p>
+                </div>
+                <a href="#" class="my-button">Shop the look</a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+         <h3>__ WHY CIESTA __</h3> <br><br>
+        <H1>Made to be worn for years</H1> <br>
+
+ <div class="text-boxes">
+
+    <div class="text-box">
+        <!-- <i class="fa-solid fa-star"></i> -->
+        <h2>Quality</h2>
+        <p>We provide high-quality products made with care and attention to detail.</p>
+    </div>
+
+    <div class="text-box">
+        <h2>Our Style</h2>
+        <p>Simple, modern and timeless pieces designed for everyday life.</p>
+    </div>
+
+    <div class="text-box">
+        <h2>Our Promise</h2>
+        <p>We are committed to giving our customers the best shopping experience.</p>
+    </div>
+
+</div>
+    <div class="stats">
+
+    <div class="stat">
+        <h2>42</h2>
+        <p>Countries shipped</p>
+    </div>
+
+    <div class="stat">
+        <h2>18K</h2>
+        <p>Five-star reviews</p>
+    </div>
+
+    <div class="stat">
+        <h2>96%</h2>
+        <p>Would buy again</p>
+    </div>
+
+    <div class="stat">
+        <h2>12</h2>
+        <p>Years in the making</p>
+    </div>
+</div>
+    </section>
+
+    <section id="reviews">
+        <h3>__ LOVED BY CUSTOMERS __</h3>
+        <H1>Worn and reviewed</H1> <br>
+
+<div class="review-slider">
+
+    <div class="review-card active">
+        <div class="stars">★★★★★</div>
+        <p>"Everything arrives beautifully packed and the returns <br>
+             are genuinely effortless. I've reordered the Sutton shirt <br>
+              in every colour they make."</p>
+        <h4>— Sarah M.</h4>
+    </div>
+
+    <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Sizing is spot on and the quality punches well above the <br>
+             price. Vesta has quietly replaced most of my wardrobe."</p>
+        <h4>— Daniel K.</h4>
+    </div>
+
+    <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"The Marlowe coat is the best thing I've bought in years — the
+             wool is heavy in the right way and the cut actually flatters. <br>
+              Three winters in and it still looks new."</p>
+        <h4>— Emily R.</h4>
+    </div>
+
+    <div class="review-dots">
+        <button class="dot active"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+    </div>
+
+</div>
+    </section>
+
+    <section id="subscribe">
+        <h3>__ JOIN THE LIST __</h3>
+        <H1>Get $15 off your first <br>
+            order</H1> <br>
+            <p>Early access to new drops, private sales and styling notes — <br>
+                 straight to your inbox, never more than twice a month</p> <br>
+             
+               <div class="subscribe-form">
+                 <input type="email" name="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+                </div> <br>
+                <span class="one"><p>By subscribing you agree to our privacy policy. Unsubscribe anytime.</p></span>
+    </section>
+    <!-- this is for cart -->
+<div class="cart">
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button class="close-cart">×</button>
+    </div>
+
+    <div class="cart-items">
+        <!-- Products will appear here -->
+    </div>
+
+    <div class="cart-bottom">
+        <h3>Total: $<span class="cart-total">0</span></h3>
+        <button class="checkout">Checkout</button>
+    </div>
+</div>
+<div class="checkout-page">
+
+    <div class="checkout-header">
+        <h2>Checkout</h2>
+        <button class="close-checkout">×</button>
+    </div>
+
+    <div class="checkout-content">
+
+        <h3>Contact Information</h3>
+
+        <input type="text" placeholder="Full Name">
+
+        <input type="email" placeholder="Email Address">
+
+        <input type="text" placeholder="Phone Number">
+
+        <h3>Delivery Address</h3>
+
+        <input type="text" placeholder="Address">
+
+        <input type="text" placeholder="City">
+
+        <input type="text" placeholder="State">
+
+        <h3>Payment</h3>
+
+        <input type="text" placeholder="Card Number">
+
+        <div class="payment-row">
+            <input type="text" placeholder="MM/YY">
+            <input type="text" placeholder="CVV">
+        </div>
+
+        <button class="place-order">Place Order</button>
+
+    </div>
+
+</div>
+<div class="success-page">
+
+    <div class="success-box">
+
+        <div class="success-icon">✓</div>
+
+        <h2>Thank You!</h2>
+
+        <p>Your order has been placed successfully.</p>
+
+        <p class="success-small">
+            Thank you for shopping with CIESTA.
+        </p>
+
+        <button class="continue-shopping">
+            Continue Shopping
+        </button>
+
+    </div>
+
+</div>
+<!-- this is for search -->
+<div class="search-box">
+
+    <div class="search-header">
+        <h2>Search CIESTA</h2>
+        <button class="close-search">×</button>
+    </div>
+
+    <div class="search-input">
+        <input type="text" class="search-input-field" placeholder="Search for products...">
+        <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+
+</div>
+
+<!-- for user -->
+<div class="account-box">
+
+    <div class="account-header">
+        <h2>My Account</h2>
+        <button class="close-account">×</button>
+    </div>
+
+    <div class="account-content">
+
+        <h3>Welcome to CIESTA.</h3>
+
+        <p class="account-name"></p>
+        <p class="account-email"></p>
+
+        <button class="logout-button">Log Out</button>
+
+    </div>
+
+</div>
+
+
+    <footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <h2>CIESTA.</h2>
+            <p>Timeless pieces made for everyday life.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Explore</h3>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Help</h3>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQs</a>
+            <a href="#">Privacy</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i> Pinterest</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 CIESTA. All rights reserved.</p>
+    </div>
+
+</footer>
+    <script src="ecommerce.js"></script>
+</body>
+</html>
